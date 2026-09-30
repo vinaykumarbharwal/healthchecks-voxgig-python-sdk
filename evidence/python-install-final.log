@@ -1,0 +1,37 @@
+Obtaining file:///C:/Users/Vinni/Desktop/Voxgig%20assignment/healthchecks-sdk/py
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Checking if build backend supports build_editable: started
+  Checking if build backend supports build_editable: finished with status 'done'
+  Getting requirements to build editable: started
+  Getting requirements to build editable: finished with status 'done'
+  Preparing editable metadata (pyproject.toml): started
+  Preparing editable metadata (pyproject.toml): finished with status 'done'
+Requirement already satisfied: certifi==2026.7.22 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 1)) (2026.7.22)
+Requirement already satisfied: charset-normalizer==3.5.2 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 2)) (3.5.2)
+Requirement already satisfied: colorama==0.4.6 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 3)) (0.4.6)
+Requirement already satisfied: idna==3.20 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 4)) (3.20)
+Requirement already satisfied: iniconfig==2.3.0 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 5)) (2.3.0)
+Requirement already satisfied: packaging==26.3 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 6)) (26.3)
+Requirement already satisfied: pluggy==1.6.0 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 7)) (1.6.0)
+Requirement already satisfied: Pygments==2.21.0 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 8)) (2.21.0)
+Requirement already satisfied: pytest==9.1.1 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 9)) (9.1.1)
+Requirement already satisfied: requests==2.34.2 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 10)) (2.34.2)
+Requirement already satisfied: urllib3==2.8.0 in c:\users\vinni\desktop\voxgig assignment\.venv\lib\site-packages (from -r requirements-test.txt (line 11)) (2.8.0)
+Building wheels for collected packages: healthchecks-voxgig-python-sdk
+  Building editable for healthchecks-voxgig-python-sdk (pyproject.toml): started
+  Building editable for healthchecks-voxgig-python-sdk (pyproject.toml): finished with status 'done'
+  Created wheel for healthchecks-voxgig-python-sdk: filename=healthchecks_voxgig_python_sdk-0.0.1-0.editable-py3-none-any.whl size=8605 sha256=02bd5763496ea0bf05c5d71efb7d4c5ae97d5f9084a521f4bcf661effad7784b
+  Stored in directory: C:\Users\Vinni\AppData\Local\Temp\pip-ephem-wheel-cache-9e5bxvlm\wheels\f6\3e\e2\4834a53377b2641911abb50006cd2159e10d0d6be500ce59c8
+Successfully built healthchecks-voxgig-python-sdk
+Installing collected packages: healthchecks-voxgig-python-sdk
+Successfully installed healthchecks-voxgig-python-sdk-0.0.1
+.venv/Scripts/python.exe : 
+At line:2 char:124
++ ... EXITCODE }; .venv/Scripts/python.exe -m pip install -r requirements-t ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+[notice] A new release of pip available: 22.3 -> 26.2.1
+[notice] To update, run: C:\Users\Vinni\Desktop\Voxgig assignment\.venv\Scripts\python.exe -m pip install --upgrade pip

@@ -9,7 +9,7 @@ __pycache__/
 *.local.*
 evidence/catalogue.json
 .jostraca/
-.model-config/*.json
+**/.model-config/*.json
 *.tsbuildinfo
 healthchecks-sdk/.sdk/model/*.json
-healthchecks-sdk/.sdk/test/*.json
+# Materialized offline test corpus is intentionally versioned.

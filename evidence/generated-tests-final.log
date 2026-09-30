@@ -1,0 +1,93 @@
+.......sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss [ 25%]
+ssssssssssssssssssss..s................................................. [ 51%]
+.................................................s...................... [ 76%]
+.................................................................        [100%]
+=========================== short test summary info ===========================
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:30: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:39: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:47: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:55: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:62: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:68: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:73: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:77: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:81: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:88: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:93: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:97: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:110: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:124: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:135: retry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:143: retry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:159: retry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:176: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:191: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:200: retry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:209: retry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:223: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:235: timeout not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:239: timeout not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:243: timeout not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:250: timeout not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:263: ratelimit not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:274: ratelimit not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:286: ratelimit not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:296: cache not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:306: cache not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:313: cache not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:321: cache not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:332: cache not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:342: cache not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:352: cache not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:366: idempotency not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:372: idempotency not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:378: idempotency not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:384: idempotency not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:391: idempotency not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:401: idempotency not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:408: idempotency not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:420: rbac not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:430: rbac not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:437: rbac not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:443: rbac not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:450: rbac not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:463: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:479: metrics not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:492: metrics not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:503: telemetry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:519: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:531: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:542: telemetry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:551: telemetry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:556: telemetry not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:566: debug not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:579: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:590: debug not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:600: debug not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:612: netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:631: audit not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:642: audit not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:649: audit not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:660: clienttrack not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:675: clienttrack not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:681: clienttrack not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:691: clienttrack not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:703: paging not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:718: paging not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:727: paging not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:742: paging not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:754: paging not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:760: paging not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:773: streaming not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:786: streaming not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:795: streaming not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:800: streaming not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:813: proxy not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:831: proxy not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:840: proxy not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:846: proxy not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:854: proxy not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature.py:865: cache+netsim not in this SDK
+SKIPPED [1] healthchecks-sdk\py\test\test_feature_corpus.py:294: this SDK was generated without the cost feature
+SKIPPED [1] healthchecks-sdk\py\test\test_readme_examples.py:187: mypy not importable � covered by the execute gate
+194 passed, 87 skipped in 1.94s

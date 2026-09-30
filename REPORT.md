@@ -49,15 +49,21 @@ author and proposed repository/package metadata.
 | Direct dependency install and Python target/test feature setup | Passed |
 | Native Windows generation | Failed resolving `api/api-info.aontu`; file exists under `.sdk/model/api/` |
 | Linux container generation | Passed, exit 0 |
-| Generated Python offline suite | 191 passed, 90 skipped in 2.36 seconds on initial run |
-| Added API-contract tests | 3 passed in 0.18 seconds after correcting the assistant's fixtures |
-| `pip check` | Passed: no broken requirements |
+| Generated Python offline suite | Final: 194 passed, 87 skipped in 1.94 seconds |
+| Added API-contract tests | Final: 3 passed in 0.08 seconds |
+| Final documented installation and `pip check` | Passed: package installed in `.venv`; no broken requirements |
 | `voxgig-sdkgen doctor` | Passed: `.sdk matches the scaffold (0 additive)` |
 | Real API call with deliberately invalid key | Passed: `HealthchecksError`, HTTP status 401 |
 | Authenticated live list | Pending locally configured read-only key |
 | Authenticated live retrieval | Pending key and suitable check data |
 
-Generated test skips and final rerun results are recorded below when finalized.
+The initial generated run had 191 passes and 90 skips because the generated
+project root README was absent. Adding a prose-only README exposed two expected
+documentation-gate failures; adding the actual runnable list example made those
+checks pass. Final skips: 85 cases for unselected features in test_feature.py,
+one unselected cost-feature corpus case, and optional mypy (not installed).
+The [final log](evidence/generated-tests-final.log) records each reason. The
+materialized offline corpus is versioned so a checkout can run these tests.
 Offline tests do not prove authenticated live integration. Initial added tests
 failed because the assistant omitted the mock response `body`, assumed the
 wrong trailing-slash behavior, and compared a case-sensitive header spelling.
@@ -124,10 +130,11 @@ corrected its own test fixtures, and drafted this report. Automated checks are
 not claimed as human review. Human review, credential setup and final time
 should be confirmed by Vinay before submission.
 
-Human time: Vinay reported **zero prior hands-on minutes**. Subsequent human
-hands-on time has not yet been reported; compliance with the 30-minute cap
-must not be inferred from assistant duration. Assistant work began approximately
-15:10 UTC; its final elapsed time is recorded separately at handoff.
+Human time: Vinay initially reported zero prior hands-on minutes and subsequently
+reported **10 minutes spent**, leaving 20 minutes of the 30-minute allowance.
+Specific personal review/run details have not been supplied. Further human time
+must be added before submission. Assistant work began approximately 15:10 UTC;
+its elapsed time is separate and must not be described as human hands-on time.
 
 Publication: proposed account `vinaykumarbharwal`, destination
 `healthchecks-voxgig-python-sdk`; public creation awaits explicit destination

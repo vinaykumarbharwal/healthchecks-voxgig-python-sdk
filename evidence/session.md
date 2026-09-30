@@ -20,3 +20,15 @@ Registry metadata: @voxgig/create-sdkgen 0.30.4; @voxgig/sdkgen 4.32.1 (Node >=2
 
 Environment issue: sandbox proxy 127.0.0.1:9 prevented network requests and caused a misleading gh auth status failure. Retrying with approved network access succeeded; authenticated account vinaykumarbharwal. This is not a Voxgig defect.
 CLI usage correction: gh rejects --slurp with --jq; switched to paginated JSON Lines. This is not a Voxgig defect.
+
+At approximately 15:28 UTC, Vinay reported 10 human hands-on minutes spent.
+No specific personal review/run details were supplied with that answer.
+Assistant execution/waiting elapsed to that checkpoint: approximately 18 minutes,
+separate from the reported human total. This does not establish a 30-minute
+wall-clock assessment duration.
+
+Final documented Python installation passed after renaming the package through
+the project overlay. `pip check` reported no broken requirements. Root and
+generator copies of the input OpenAPI JSON were compared and are equal.
+Tracked-file scan before key configuration found no targeted secrets/local
+files; it is a targeted scan, not proof that arbitrary secrets cannot exist.

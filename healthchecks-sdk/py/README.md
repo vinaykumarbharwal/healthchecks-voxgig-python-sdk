@@ -15,7 +15,7 @@ keeps the cognitive load low.
 
 ## Install
 This package is not yet published to PyPI. Install it from the GitHub
-release tag (`py/vX.Y.Z`, see [Releases](https://github.com/voxgig-sdk/healthchecks-sdk/releases)) or
+release tag (`py/vX.Y.Z`, see [Releases](https://github.com/vinaykumarbharwal/healthchecks-voxgig-python-sdk/releases)) or
 from a source checkout:
 
 ```bash
