@@ -1,0 +1,18 @@
+Healthchecks Python SDK
+
+Original assessment specification, example, contract tests and report:
+Copyright (c) 2026 Vinay Kumar. Licensed under the MIT License.
+
+Generated with Voxgig's @voxgig/create-sdkgen and @voxgig/sdkgen tools.
+The generated Python SDK, vendored utilities, templates and components retain
+their upstream copyright notices and licenses. See LICENSE and
+healthchecks-sdk/py/LICENSE.
+
+This is an unofficial client for Healthchecks.io. It is not affiliated with,
+endorsed by, or sponsored by Healthchecks.io. The OpenAPI input is a manually
+authored subset of https://healthchecks.io/docs/api/ and is not an official
+Healthchecks.io specification.
+
+The repository presentation was informed by the user-supplied reference:
+https://github.com/Sourav1331/voxgig-firecrawl-sdk
+No Firecrawl SDK implementation or assessment findings were copied.
