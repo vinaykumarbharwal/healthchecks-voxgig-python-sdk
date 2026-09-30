@@ -3,6 +3,9 @@
 Exercise 1, Vinay Kumar, 30 September 2026. Built with AI assistance using the
 actual Voxgig generator; no handwritten HTTP client replaced its output.
 
+Public repository: [healthchecks-voxgig-python-sdk](https://github.com/vinaykumarbharwal/healthchecks-voxgig-python-sdk).
+Publication and the remote commit were verified on 30 September 2026.
+
 ## API and output
 
 Healthchecks.io Management API v3 was selected for two reads: list checks and

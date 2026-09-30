@@ -117,18 +117,9 @@ This is a narrow assessment artifact, not a production SDK release. Read the
 and documentation inconsistencies. Generated READMEs remain intact as evidence;
 use this README and `examples/read_checks.py` for the assessed workflow.
 
-Public source publication requires confirmation of the proposed account
-`vinaykumarbharwal` and repository name `healthchecks-voxgig-python-sdk`.
-No PyPI publication is needed. If publication has not completed, after reviewing
-the files, confirming the account, and verifying the name is unused:
-
-```powershell
-gh api user --jq .login
-gh repo create vinaykumarbharwal/healthchecks-voxgig-python-sdk --public --source . --remote origin --push
-```
-
-The command assumes a local commit exists. Do not run it against an existing
-repository or treat proposed links in generated metadata as published links.
+Public source repository:
+[vinaykumarbharwal/healthchecks-voxgig-python-sdk](https://github.com/vinaykumarbharwal/healthchecks-voxgig-python-sdk).
+Publication succeeded on 30 September 2026. No package was published to PyPI.
 
 Original assessment contributions: Copyright 2026 Vinay Kumar, MIT.
 Upstream notices and the generated SDK's license are preserved.

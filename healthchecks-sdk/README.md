@@ -8,8 +8,8 @@ installation, live usage, reproduction, and limitations, and the
 The generated Python documentation remains intact as evidence. Its claim
 that `list()` returns dictionaries is inaccurate for the tested version:
 it returns entity objects; call `data_get()` on each. The assessment example
-uses the verified behavior. Generated links describe the proposed repository
-destination and do not prove publication.
+uses the verified behavior. The public repository is
+[healthchecks-voxgig-python-sdk](https://github.com/vinaykumarbharwal/healthchecks-voxgig-python-sdk).
 
 Minimal list usage (configure the environment variable locally first):
 

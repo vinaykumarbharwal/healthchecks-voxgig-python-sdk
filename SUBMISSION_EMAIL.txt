@@ -3,7 +3,8 @@ Subject: Voxgig assessment — exercise 1: Healthchecks Python SDK
 
 Hi Richard,
 
-Here is my first exercise: [insert verified public repository URL after publication].
+Here is my first exercise:
+https://github.com/vinaykumarbharwal/healthchecks-voxgig-python-sdk
 
 I used Voxgig's generator to build a small Python SDK for listing and retrieving
 Healthchecks.io monitoring checks. The repository includes the specification,
@@ -23,6 +24,6 @@ verification/time separately from assistant execution.
 Best,
 Vinay Kumar
 
-Draft only — not sent. Insert the verified URL and update live results if tested
-before submission. Human hands-on time last reported: 10 minutes; add any
+Draft only — not sent. Update live results if tested before submission.
+Human hands-on time last reported: 10 minutes; add any
 further time and confirm personal verification before sending.
