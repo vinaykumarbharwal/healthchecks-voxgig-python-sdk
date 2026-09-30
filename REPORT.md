@@ -98,8 +98,8 @@ output, ran tools and tests, corrected its fixtures, and drafted this report.
 Specific human code-review or test-run details have not been supplied, so automated
 verification is not presented as personal verification.
 
-**Human time last reported: 10 minutes**, leaving 20 of the 30-minute allowance;
-additional human work must be included before submission. Assistant execution
+**Total human hands-on time reported by Vinay: 28 minutes**, within the
+30-minute allowance. This updates the earlier 10-minute checkpoint. Assistant execution
 and waiting took approximately 19 minutes in the first work session. Follow-up
 execution is recorded separately in [session notes](evidence/session.md); time
 between turns is not counted as assistant execution. No claim is made that the

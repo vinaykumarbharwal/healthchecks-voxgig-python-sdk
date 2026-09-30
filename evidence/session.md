@@ -47,3 +47,8 @@ At the follow-up handoff, 15:44 UTC, the key remained unavailable. Follow-up
 assistant execution and waiting elapsed approximately 4.5 minutes, in addition
 to approximately 19 minutes in the first session (about 23.5 minutes combined).
 The gap between sessions is excluded. Authenticated reads are not claimed.
+
+Subsequent user update: Vinay reported a total of 28 minutes of human hands-on
+work. REPORT.md and the submission email now use this updated total. Earlier
+zero-minute and 10-minute entries above are historical checkpoints. Assistant
+execution time remains separate; no additional personal review is inferred.
