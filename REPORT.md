@@ -45,7 +45,7 @@ docgen **0.30.0**. Lockfiles, [versions](evidence/generator-versions.log), exact
 | Added offline contract tests | **3 passed** |
 | Installation, pip dependency check, generator doctor | Passed; no scaffold drift |
 | Live deliberately invalid-key request | Passed: `HealthchecksError.status == 401` |
-| Authenticated list/retrieval | Not run yet: local key setup pending |
+| Authenticated list/retrieval | Not run: key unavailable at publication handoff |
 
 Skips cover unselected features and optional mypy. Offline success does not prove
 live integration. Initial assistant-written fixtures had missing response bodies

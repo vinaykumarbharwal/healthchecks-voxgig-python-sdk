@@ -42,3 +42,8 @@ matching local/remote commit cddc71249d20916c639e7da15d90d829e9a52174 were verif
 The report was condensed; local VS Code settings were preserved and ignored.
 User said they would configure the key; it was still unavailable at 15:42 UTC.
 Human time remains the last reported 10 minutes; no extra time is invented.
+
+At the follow-up handoff, 15:44 UTC, the key remained unavailable. Follow-up
+assistant execution and waiting elapsed approximately 4.5 minutes, in addition
+to approximately 19 minutes in the first session (about 23.5 minutes combined).
+The gap between sessions is excluded. Authenticated reads are not claimed.
