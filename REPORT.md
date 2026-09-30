@@ -54,8 +54,8 @@ author and proposed repository/package metadata.
 | Final documented installation and `pip check` | Passed: package installed in `.venv`; no broken requirements |
 | `voxgig-sdkgen doctor` | Passed: `.sdk matches the scaffold (0 additive)` |
 | Real API call with deliberately invalid key | Passed: `HealthchecksError`, HTTP status 401 |
-| Authenticated live list | Pending locally configured read-only key |
-| Authenticated live retrieval | Pending key and suitable check data |
+| Authenticated live list | Not run at this handoff: read-only key not configured |
+| Authenticated live retrieval | Not run at this handoff: needs key and suitable check data |
 
 The initial generated run had 191 passes and 90 skips because the generated
 project root README was absent. Adding a prose-only README exposed two expected
@@ -115,7 +115,7 @@ execution, not invented first-hand human interactions.
 
 ## Limits, AI assistance, and time
 
-Authenticated success was not yet established when this draft was written.
+Authenticated success has not been established at this handoff.
 Only Python 3.11 on Windows was exercised. Optional features/languages, writes,
 filters, full response-schema coverage, and package release were out of scope.
 The generation environment reported two moderate npm audit findings; their
@@ -134,7 +134,9 @@ Human time: Vinay initially reported zero prior hands-on minutes and subsequentl
 reported **10 minutes spent**, leaving 20 minutes of the 30-minute allowance.
 Specific personal review/run details have not been supplied. Further human time
 must be added before submission. Assistant work began approximately 15:10 UTC;
-its elapsed time is separate and must not be described as human hands-on time.
+At the 15:29 UTC handoff, assistant execution and waiting elapsed approximately
+19 minutes. This is separate from human hands-on time; no claim is made that
+the entire assessment took 30 minutes.
 
 Publication: proposed account `vinaykumarbharwal`, destination
 `healthchecks-voxgig-python-sdk`; public creation awaits explicit destination

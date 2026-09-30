@@ -11,7 +11,8 @@ generation configuration, example, MIT license, and developer-experience report.
 
 The generated offline suite finished with 194 passed and 87 skipped; three
 focused contract tests passed. A real invalid-key request exposed HTTP 401 as
-a typed SDK error. Authenticated live results: [finalize after local key setup].
+a typed SDK error. Authenticated list/retrieval tests have not run because a
+local API key has not yet been configured.
 
 The main friction was native Windows setup and model-path resolution; generation
 succeeded in a pinned Linux container. I also found inconsistent documentation
@@ -22,4 +23,6 @@ verification/time separately from assistant execution.
 Best,
 Vinay Kumar
 
-Draft only — not sent. Replace the two bracketed placeholders before submission.
+Draft only — not sent. Insert the verified URL and update live results if tested
+before submission. Human hands-on time last reported: 10 minutes; add any
+further time and confirm personal verification before sending.
