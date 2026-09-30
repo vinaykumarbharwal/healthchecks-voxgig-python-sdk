@@ -16,3 +16,6 @@ logs/
 # Editor
 *~
 *.swp
+
+# Generated workflows are inactive under this nested project directory.
+.github/

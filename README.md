@@ -9,7 +9,7 @@ MIT-licensed assessment project with two read operations. The input is a
 manually authored OpenAPI subset of the official API documentation.
 
 **For reviewers:** [mini-task report](REPORT.md) ·
-[test evidence](evidence) · [submission files](submission-files.txt) ·
+[test evidence](evidence/README.md) ·
 [license](LICENSE) · [attribution](NOTICE)
 
 ## Submission status
@@ -143,7 +143,7 @@ information. The example prints only exception class and HTTP status.
 | --- | --- |
 | [`healthchecks-sdk/py/`](healthchecks-sdk/py/) | Generated Python package, tests and language documentation |
 | [`healthchecks-sdk/.sdk/`](healthchecks-sdk/.sdk/) | Native generator model, templates, components and lockfile |
-| [`openapi.json`](openapi.json) | Original two-operation specification |
+| [`healthchecks-sdk/.sdk/def/openapi.json`](healthchecks-sdk/.sdk/def/openapi.json) | Two-operation source specification |
 | [`examples/read_checks.py`](examples/read_checks.py) | Runnable live example with safe output |
 | [`tests/`](tests/) | Focused offline API-contract verification |
 | [`REPORT.md`](REPORT.md) | Assessment findings, results, AI assistance and time |
@@ -175,28 +175,27 @@ npx --no-install voxgig-sdkgen doctor
 ```
 
 The authoritative regeneration input is
-`healthchecks-sdk/.sdk/def/openapi.json`; `openapi.json` at repository root is
-an identical copy of the original source for easy inspection. Keep them in
-sync if deliberately changing the API scope. The specification is a
+`healthchecks-sdk/.sdk/def/openapi.json`. The specification is a
 **manually authored subset**, based on the
 [official Healthchecks Management API v3 docs](https://healthchecks.io/docs/api/),
 not an official OpenAPI download. Filters and most response properties are
 intentionally out of scope; unspecified response fields are not forbidden.
 
-The original clean-scaffold command was:
+To scaffold a separate project from the preserved specification:
 
 ```sh
-npx --yes @voxgig/create-sdkgen@0.30.4 healthchecks -d ./openapi.json -o ./healthchecks-sdk -t py -f test
+npx --yes @voxgig/create-sdkgen@0.30.4 healthchecks -d ./healthchecks-sdk/.sdk/def/openapi.json -o ./fresh-healthchecks-sdk --no-install
 ```
 
-That command failed natively on Windows with `spawn npm ENOENT`. The documented
-`--no-install` retry also failed when targets/features were supplied before
-dependencies existed. To scaffold afresh, use a **new empty output folder**:
-run the same pinned scaffolder with `--no-install` and without `-t`/`-f`,
-then install in `.sdk/`, run `npm run add-target -- py` and
+The original attempt with automatic installation failed natively on Windows
+with `spawn npm ENOENT`. A `--no-install` retry also failed when targets/features
+were supplied before dependencies existed. For a fresh scaffold, use a
+**new empty output folder** as above, then install in that project's `.sdk/`,
+run `npm run add-target -- py` and
 `npm run add-feature -- test`, and generate in Linux. A clean fresh scaffold
 may resolve newer transitive versions; use the committed lockfile to reproduce
-this assessment. Full attempt logs are in [evidence](evidence).
+this assessment. Original commands, failure logs and final results are in
+[evidence](evidence/README.md).
 
 Project decisions live in `.sdk/model/project.aontu`. The top generation phase
 is disabled to preserve assessment documentation and avoid top-level release

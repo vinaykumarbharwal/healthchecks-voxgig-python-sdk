@@ -1,8 +1,0 @@
-
-> build-healthchecks-sdk@0.0.1 add-feature
-> voxgig-sdkgen feature add test
-
-[20:46:37.509] INFO: sdkgen/jostraca        feature-start        
-[20:46:37.528] INFO: sdkgen/jostraca        feature-build        test
-[20:46:37.579] INFO: sdkgen/jostraca        feature-done         test
-[20:46:37.659] INFO: sdkgen/jostraca        feature-end          

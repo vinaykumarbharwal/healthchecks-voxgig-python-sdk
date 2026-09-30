@@ -24,7 +24,7 @@ Healthchecks.io and hc-ping found no match. The [snapshot](evidence/catalogue.js
 is evidence of metadata-level absence, not a source audit or private-repository check.
 
 No official OpenAPI download was found in the documentation or targeted
-repository search. [openapi.json](openapi.json) is a clearly labelled, manually
+repository search. The [source specification](healthchecks-sdk/.sdk/def/openapi.json) is a clearly labelled, manually
 authored subset of the [official API docs](https://healthchecks.io/docs/api/).
 It describes two GET operations, header authentication and partial response
 schemas. Read-only keys return `unique_key` for retrieval.
@@ -101,6 +101,6 @@ verification is not presented as personal verification.
 **Total human hands-on time reported by Vinay: 28 minutes**, within the
 30-minute allowance. This updates the earlier 10-minute checkpoint. Assistant execution
 and waiting took approximately 19 minutes in the first work session. Follow-up
-execution is recorded separately in [session notes](evidence/session.md); time
+execution is recorded separately in [evidence notes](evidence/README.md); time
 between turns is not counted as assistant execution. No claim is made that the
 entire assessment took 30 minutes. This is exercise 1 only; no invoice was prepared.

@@ -13,6 +13,3 @@ endorsed by, or sponsored by Healthchecks.io. The OpenAPI input is a manually
 authored subset of https://healthchecks.io/docs/api/ and is not an official
 Healthchecks.io specification.
 
-The repository presentation was informed by the user-supplied reference:
-https://github.com/Sourav1331/voxgig-firecrawl-sdk
-No Firecrawl SDK implementation or assessment findings were copied.
