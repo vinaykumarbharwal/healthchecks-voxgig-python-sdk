@@ -1,0 +1,61 @@
+{
+  "existing": {
+    "check": {
+      "CHECK00": {
+        "desc": "s50",
+        "id": "CHECK00",
+        "name": "s52",
+        "slug": "s53",
+        "status": "s54",
+        "tags": "s55",
+        "unique_key": "s56",
+        "uuid": "s57"
+      },
+      "CHECK01": {
+        "desc": "sa0",
+        "id": "CHECK01",
+        "name": "sa2",
+        "slug": "sa3",
+        "status": "sa4",
+        "tags": "sa5",
+        "unique_key": "sa6",
+        "uuid": "sa7"
+      },
+      "CHECK02": {
+        "desc": "sf0",
+        "id": "CHECK02",
+        "name": "sf2",
+        "slug": "sf3",
+        "status": "sf4",
+        "tags": "sf5",
+        "unique_key": "sf6",
+        "uuid": "sf7"
+      }
+    }
+  },
+  "new": {
+    "check": {
+      "check_ref01": {
+        "desc": "s140",
+        "name": "s142",
+        "slug": "s143",
+        "status": "s144",
+        "tags": "s145",
+        "unique_key": "s146",
+        "uuid": "s147"
+      }
+    }
+  },
+  "requests": {
+    "GET /checks/": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    },
+    "GET /checks/{id}": {
+      "provenance": "operation-contract",
+      "version": 2,
+      "source": "openapi3"
+    }
+  }
+}

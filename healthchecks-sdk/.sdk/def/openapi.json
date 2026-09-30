@@ -1,0 +1,54 @@
+{
+  "openapi": "3.0.3",
+  "info": {
+    "title": "Healthchecks Management API",
+    "version": "3.0.0",
+    "description": "Manually authored, read-only subset of https://healthchecks.io/docs/api/, checked 2026-09-30. Not an official OpenAPI specification. Only list and retrieve checks are included; response properties are intentionally partial."
+  },
+  "servers": [{"url": "https://healthchecks.io/api/v3"}],
+  "security": [{"ApiKey": []}],
+  "paths": {
+    "/checks/": {
+      "get": {
+        "operationId": "listChecks",
+        "tags": ["Check"],
+        "summary": "List existing checks",
+        "responses": {
+          "200": {"description": "Checks belonging to the project", "content": {"application/json": {"schema": {"type": "object", "properties": {"checks": {"type": "array", "items": {"$ref": "#/components/schemas/Check"}}}}}}},
+          "401": {"description": "API key missing or invalid"}
+        }
+      }
+    },
+    "/checks/{id}": {
+      "get": {
+        "operationId": "getCheck",
+        "tags": ["Check"],
+        "summary": "Get a single check",
+        "parameters": [{"name": "id", "in": "path", "required": true, "description": "Check UUID, or unique_key returned when using a read-only key", "schema": {"type": "string"}}],
+        "responses": {
+          "200": {"description": "The check", "content": {"application/json": {"schema": {"$ref": "#/components/schemas/Check"}}}},
+          "401": {"description": "API key missing or invalid"},
+          "403": {"description": "Access denied, wrong API key"},
+          "404": {"description": "Check does not exist"}
+        }
+      }
+    }
+  },
+  "components": {
+    "securitySchemes": {"ApiKey": {"type": "apiKey", "in": "header", "name": "X-Api-Key"}},
+    "schemas": {
+      "Check": {
+        "type": "object",
+        "properties": {
+          "name": {"type": "string"},
+          "slug": {"type": "string"},
+          "tags": {"type": "string"},
+          "desc": {"type": "string"},
+          "status": {"type": "string", "enum": ["new", "up", "grace", "down", "paused"]},
+          "uuid": {"type": "string", "description": "Omitted with a read-only key"},
+          "unique_key": {"type": "string", "description": "Returned with a read-only key"}
+        }
+      }
+    }
+  }
+}

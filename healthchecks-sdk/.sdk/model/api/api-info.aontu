@@ -1,0 +1,27 @@
+# API Information
+
+
+main: {
+  kit: {
+    info: {
+      description: "Manually authored, read-only subset of https://healthchecks.io/docs/api/, checked 2026-09-30. Not an official OpenAPI specification. Only list and retrieve checks are included; response properties are intentionally partial."
+      security: {
+        in: "header"
+        name: "X-Api-Key"
+        prefix: ""
+        scheme: "ApiKey"
+        type: "apiKey"
+      }
+      servers: [
+        {
+          url: "https://healthchecks.io/api/v3"
+        }
+      ]
+      summary: "Manually authored, read-only subset of https://healthchecks.io/docs/api/, checked 2026-09-30."
+      title: "Healthchecks Management API"
+      version: "3.0.0"
+      website: "https://healthchecks.io"
+    }
+  }
+}
+
